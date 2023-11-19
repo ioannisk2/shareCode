@@ -1,0 +1,9 @@
+Dora;Politi;30;Female;697123456
+Sokratis;Charalabopoulos;35;Male;6944123456
+Anastasia;Charalabopoulou;8;Female;6931234567
+Giannis;Charalabopoulos;6;Male;2106811111
+Dimitra;Politi;29;Female;2102102101
+Mitsos;Mitsopoulos;33;Male;2107783339
+Maria;Mariou;24;Female;6991234567
+Ntinos;Ntinopoulos;45;Male;6900000000
+Ntina;Ntinopoulou;33;Female;2110101011
