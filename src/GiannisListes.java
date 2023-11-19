@@ -6,12 +6,13 @@ import java.util.ArrayList;
 public class GiannisListes {
     public static void main(String[] args) throws Exception{
         ArrayList<Integer> list=new ArrayList<Integer>();
-        String pathNumbers="/Users/dimitris/JimProjects/DoraDimitrisProject/dataSamples/sample.txt";
+        String pathNumbers="C:\\Users\\ioann\\OneDrive\\Desktop\\sample.txt";
         list=readfileNumbers(pathNumbers);
         System.out.println("Lista"+list);
         System.out.println("List sum="+listSum(list));
         System.out.println("max="+findMaxNumber(list));
         System.out.println("min="+findMinNumber(list));
+        System.out.println("Arithmos eggrafwn arxeiou = " + list.size() );
     }
     private static ArrayList<Integer> readfileNumbers(String path) throws Exception{
         ArrayList<Integer> list=new ArrayList<Integer>();

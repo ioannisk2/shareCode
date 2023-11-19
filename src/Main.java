@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) throws Exception{
         ArrayList<Integer> list=new ArrayList<Integer>();
         ArrayList<Human> humans=new ArrayList<Human>();
-        String pathNumbers="/Users/dimitris/JimProjects/DoraDimitrisProject/dataSamples/sample.txt";
+        String pathNumbers="C:\\Users\\ioann\\IdeaProjects\\untitled\\dataSamples.txt";
         list=readfileNumbers(pathNumbers);
 
         System.out.println("Lista"+list);
@@ -28,7 +28,7 @@ public class Main {
     private static ArrayList<Human> createHumans() throws Exception{
         ArrayList<String> hu=new ArrayList<String>();
         ArrayList<Human> humans=new ArrayList<Human>();
-        String pathHumans="/Users/dimitris/JimProjects/DoraDimitrisProject/dataSamples/humans.txt";
+        String pathHumans="C:\\Users\\ioann\\IdeaProjects\\untitled\\dataSamples\\humans.txt";
         hu=readfileString(pathHumans);
 
         for(Integer i=0;i<hu.size();i++){

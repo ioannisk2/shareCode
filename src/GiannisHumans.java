@@ -21,7 +21,7 @@ public class GiannisHumans {
     private static ArrayList<Human> createHumans() throws Exception{
         ArrayList<String> hu=new ArrayList<String>();
         ArrayList<Human> humans=new ArrayList<Human>();
-        String pathHumans="/Users/dimitris/JimProjects/DoraDimitrisProject/dataSamples/humans.txt";
+        String pathHumans="C:\\Users\\ioann\\OneDrive\\Desktop\\humans.txt";
         hu=readfileString(pathHumans);
 
         for(Integer i=0;i<hu.size();i++){
