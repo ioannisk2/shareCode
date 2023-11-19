@@ -12,7 +12,19 @@ public class GiannisHumans {
 
         humans=createHumans();
         for (Integer i =0;i<humans.size();i++){
-            System.out.println((i+1)+" "+humans.get(i).name+", "+humans.get(i).surname+", "+humans.get(i).gender+", "+humans.get(i).age+", "+humans.get(i).mobile);
+            System.out.println((i+1)+" "+humans.get(i).name+", "+humans.get(i).surname+", "+humans.get(i).gender+", "+humans.get(i).age+", "+humans.get(i).mobile + " , "+humans.get(i).adress);
+        }
+        System.out.println("**********");
+        for (Integer i =0;i<humans.size();i++){
+            if (humans.get(i).gender.equalsIgnoreCase("male")) {
+                System.out.println("Ονομα = " + humans.get(i).name + " Επίθετο = " + humans.get(i).surname + " Ηλικία = " + humans.get(i).age);
+            }
+        }
+        System.out.println("**********");
+        for (Integer i =0;i<humans.size();i++){
+            if (humans.get(i).age < 25) {
+                System.out.println("Ονομα = " + humans.get(i).name + " Επίθετο = " + humans.get(i).surname + " Ηλικία = " + humans.get(i).age);
+            }
         }
         System.out.println("Plithos oikogeneiwn="+humans.size());
 
@@ -33,6 +45,7 @@ public class GiannisHumans {
             h.age=Integer.parseInt(temp.get(2));
             h.gender=temp.get(3);
             h.mobile=temp.get(4);
+            h.adress=temp.get(5);
             humans.add(h);
         }
         return humans;
